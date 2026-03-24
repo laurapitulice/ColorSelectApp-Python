@@ -1,25 +1,18 @@
-# 🌺"Detecting Color in an Image" - Python Application
+# 🌺 ColorSelectApp in Python
 
-This is an interactive Python application that allows users to detect and identify colors within an image by clicking on a specific pixel.
-It is designed to simplify the process of color identification for graphic designers, artists, and developers.
+Year 2 individual project: An intelligent image analysis & color palette generation tool in Python created to help out graphic designers and artists. Implemented K-Means Clustering via Scikit-Learn to perform image quantization, extracting the top 5 dominant colors from any visual asset. Integrated a custom OpenCV-based pixel picker for real-time HEX code retrieval and managed a dynamic UI using Tkinter and Pillow.
 
-## 🛠️ Technologies Used
-The project is built using Python and the following key libraries:
-- **`Tkinter`**: The standard Python library for creating the Graphical User Interface (GUI), managing the main window, and handling click events.
-- **`Pillow (PIL)`**: Used for image processing, allowing the application to open image files, convert them to RGB format, and extract pixel color data.
+## Features
+- Dynamic Palette Generation: Uses Scikit-Learn’s K-Means algorithm to find the most representative colors in any uploaded image.
+- Precision Color Picker: Click any pixel on the canvas to get its exact HEX value and see a live preview.
+- Visual Feedback: Opens a secondary "pop-up" window (Toplevel) that displays the selected color as its background and shows the corresponding HEX code.
+- Interactive UI: Built with Tkinter, featuring image thumbnails and a responsive layout.
+- Clipboard Integration: Click color code to copy them instantly for use in design projects
 
-## 🚀 Features
-- **Interactive Image Display**: The selected image is loaded and displayed on a Canvas widget at its original size.
-- **Pixel Color Detection**: The application captures the coordinates of the mouse click and extracts the RGB values of that specific pixel.
-- **Hexadecimal Conversion**: Automatically converts RGB color values into HEX format using string formatting.
-- **Visual Feedback**: Opens a secondary "pop-up" window (Toplevel) that displays the selected color as its background and shows the corresponding HEX code.
+<img width="2395" height="1390" alt="image" src="https://github.com/user-attachments/assets/7f64998f-ebef-4965-9faf-a9bf94552047" />
+<img width="2386" height="1387" alt="image" src="https://github.com/user-attachments/assets/b17d19e1-1f4d-480e-87b7-3911217f724c" />
 
-## 📂 Code Logic
-1. **Event Binding**: The `<Button-1>` event (left mouse click) is linked to the `show_color` function.
-2. **Color Extraction**: The `getpixel` function from Pillow is used to retrieve RGB data.
-3. **GUI Management**: `Toplevel` windows are generated dynamically to provide immediate visual results for each selection.
 
-## 🎨 How to use
-1. To run this application, you need to have Python installed on your computer along with the Pillow library. You can install the required library by opening your terminal or command prompt and typing `pip install Pillow`
-2. Download the `proiect.py` file and the image you want to use (for example, `crin.jpg`) into the same folder. Open the Python script and ensure the image_path variable matches your filename.
-3. Run the script and click on a pixel in the pop-up window.
+
+
+\* The code was written and run in VSCode (Windows 11) after creating a virtual environment
