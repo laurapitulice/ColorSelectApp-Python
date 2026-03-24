@@ -1,4 +1,4 @@
-# 🌺"Detecting Colour in an Image" - Python Application
+# 🌺"Detecting Color in an Image" - Python Application
 
 This is an interactive Python application that allows users to detect and identify colors within an image by clicking on a specific pixel.
 It is designed to simplify the process of color identification for graphic designers, artists, and developers.
