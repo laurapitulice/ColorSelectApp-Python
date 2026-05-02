@@ -1,4 +1,4 @@
-# 🌺 ColorSelectApp in Python
+# 🌺 "ColorSelectApp" in Python
 
 Year 2 individual project: An intelligent image analysis & color palette generation tool in Python created to help out graphic designers and artists. Implemented K-Means Clustering via Scikit-Learn to perform image quantization, extracting the top 5 dominant colors from any visual asset. Integrated a custom OpenCV-based pixel picker for real-time HEX code retrieval and managed a dynamic UI using Tkinter and Pillow.
 
